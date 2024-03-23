@@ -1,5 +1,6 @@
 // App.tsx
-import React, { useEffect } from 'react';
+// import React, { useEffect } from 'react';
+import React from 'react';
 import IBAE2DashBoard from './Dashboard';
 import { GlobalStyle } from './GlobalStyle';
 import { useMsal, useIsAuthenticated } from '@azure/msal-react';
@@ -9,7 +10,7 @@ const App: React.FC = () => {
   const { instance } = useMsal();
   const isAuthenticated = useIsAuthenticated();
 
-  const USER_TIMEOUT = 1000 * 60 * 5; // 15 minutes of inactivity
+  // const USER_TIMEOUT = 1000 * 60 * 5; // 15 minutes of inactivity
 
   const handleLogin = () => {
     instance.loginPopup(loginRequest).catch(e => {

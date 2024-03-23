@@ -1,7 +1,7 @@
 // Dashboard.tsx
 import React from 'react';
 import { useMsal } from '@azure/msal-react';
-import { LogoGridItem, ModuleTitle, SubModule, VerticalGridItem, GridContainer, LogModuleTitle, GridItem } from './StyledComponents';
+import { LogoGridItem, ModuleTitle, VerticalGridItem, GridContainer, LogModuleTitle, GridItem } from './StyledComponents';
 import testImage1 from './203354.png'
 import testImage2 from './203413.png'
 import testImage3 from './002309.png'
