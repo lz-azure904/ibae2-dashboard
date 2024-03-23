@@ -17,53 +17,53 @@ const App: React.FC = () => {
     });
   };
 
-  const handleLogout = () => {
+//  const handleLogout = () => {
   
-    const logoutRequest = {
-      postLogoutRedirectUri: "/", // Specifies where to redirect the user after logout. Adjust as needed.
-      // Optionally, you can specify more properties here.
-    };
+//     const logoutRequest = {
+//       postLogoutRedirectUri: "/", // Specifies where to redirect the user after logout. Adjust as needed.
+//       // Optionally, you can specify more properties here.
+//     };
   
-    instance.logoutRedirect(logoutRequest); // For redirect-based logout
-    // Or use instance.logoutPopup(logoutRequest) for popup-based logout
-  };
+//     instance.logoutRedirect(logoutRequest); // For redirect-based logout
+//     // Or use instance.logoutPopup(logoutRequest) for popup-based logout
+//   };
 
-  const SessionTimeoutHandler = () => {
-    // const { instance } = useMsal();
+  // const SessionTimeoutHandler = () => {
+  //   // const { instance } = useMsal();
   
-    useEffect(() => {
-      let timeoutId: any;
+  //   useEffect(() => {
+  //     let timeoutId: any;
   
-      const resetTimeout = () => {
-        clearTimeout(timeoutId);
-        timeoutId = setTimeout(() => {
-          // Force logout or require re-authentication
-          console.log('Session timed out');
-          // instance.logoutRedirect(); // Or instance.loginRedirect() for re-authentication
-          instance.logoutRedirect({ postLogoutRedirectUri: "/" })
-          // handleLogout();
-        }, USER_TIMEOUT);
-      };
+  //     const resetTimeout = () => {
+  //       clearTimeout(timeoutId);
+  //       timeoutId = setTimeout(() => {
+  //         // Force logout or require re-authentication
+  //         console.log('Session timed out');
+  //         // instance.logoutRedirect(); // Or instance.loginRedirect() for re-authentication
+  //         instance.logoutRedirect({ postLogoutRedirectUri: "/" })
+  //         // handleLogout();
+  //       }, USER_TIMEOUT);
+  //     };
   
-      // Reset the timeout on various user activities
-      window.addEventListener('mousemove', resetTimeout);
-      window.addEventListener('keydown', resetTimeout);
-      window.addEventListener('scroll', resetTimeout);
+  //     // Reset the timeout on various user activities
+  //     window.addEventListener('mousemove', resetTimeout);
+  //     window.addEventListener('keydown', resetTimeout);
+  //     window.addEventListener('scroll', resetTimeout);
   
-      // Set initial timeout
-      resetTimeout();
+  //     // Set initial timeout
+  //     resetTimeout();
   
-      // Cleanup on component unmount
-      return () => {
-        clearTimeout(timeoutId);
-        window.removeEventListener('mousemove', resetTimeout);
-        window.removeEventListener('keydown', resetTimeout);
-        window.removeEventListener('scroll', resetTimeout);
-      };
-    }, [instance]);
+  //     // Cleanup on component unmount
+  //     return () => {
+  //       clearTimeout(timeoutId);
+  //       window.removeEventListener('mousemove', resetTimeout);
+  //       window.removeEventListener('keydown', resetTimeout);
+  //       window.removeEventListener('scroll', resetTimeout);
+  //     };
+  //   }, [instance]);
   
-    return null; // This component does not render anything
-  };
+  //   return null; // This component does not render anything
+  // };
 
 
 

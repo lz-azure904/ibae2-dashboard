@@ -1,7 +1,7 @@
 // Dashboard.tsx
 import React from 'react';
 import { useMsal } from '@azure/msal-react';
-import { Dashboard, Module, LogoGridItem, ModuleTitle, SubModule, VerticalGridItem, GridContainer, LogModuleTitle, GridItem } from './StyledComponents';
+import { LogoGridItem, ModuleTitle, SubModule, VerticalGridItem, GridContainer, LogModuleTitle, GridItem } from './StyledComponents';
 import testImage1 from './203354.png'
 import testImage2 from './203413.png'
 import testImage3 from './002309.png'
@@ -25,49 +25,49 @@ const IBAE2DashBoard: React.FC = () => {
     <GridContainer>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={2} rowSpan={1}> {/* This item will span 2 columns */}
         <ModuleTitle>Business Activity Modeling</ModuleTitle>
-        <img src={testImage1} />
+        <img src={testImage1} alt='' />
         {/* Content for Business Activity Modeling */}
       </GridItem>
       <GridItem columnSpan={2} rowSpan={1}> {/* This item will span 1 column */}
         <ModuleTitle>Enterprise Connector No-Code Builder</ModuleTitle>
-        <img src={testImage2} />
+        <img src={testImage2}  alt=''/>
         {/* Content for Domain Model Customization */}
       </GridItem>
       <GridItem columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
         <ModuleTitle>Prompt Library</ModuleTitle>
-        <img src={testImage4} />
+        <img src={testImage4}  alt=''/>
         {/* Content for Intelligent Business Technology Studio (IBTS) */}
       </GridItem>
       <VerticalGridItem columnSpan={1} rowSpan={3}> {/* This item will span 3 columns */}
         <ModuleTitle>Execution Tracing</ModuleTitle>
-        <img src={testImage3} />
+        <img src={testImage3}  alt=''/>
         {/* Content for Intelligent Business Technology Studio (IBTS) */}
       </VerticalGridItem>
       <LogoGridItem columnSpan={4} rowSpan={1}> {/* This item will span 2 columns */}
         <LogModuleTitle>Intelligent Business Technology Studio (IBTS)</LogModuleTitle>
         
-        <img src={logo} />
+        <img src={logo}  alt=''/>
         <LogoutButton />
         {/* Content for Business Activity Modeling */}
       </LogoGridItem>
       <GridItem columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
         <ModuleTitle>Content Repo</ModuleTitle>
-        <img src={testImage4} />
+        <img src={testImage4}  alt=''/>
         {/* Content for Business Activity Modeling */}
       </GridItem>
       <GridItem columnSpan={2} rowSpan={1}> {/* This item will span 2 columns */}
         <ModuleTitle>Domain Model Customization</ModuleTitle>
-        <img src={testImage5} />
+        <img src={testImage5}  alt=''/>
         {/* Content for Business Activity Modeling */}
       </GridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={2} rowSpan={1}> {/* This item will span 1 column */}
         <ModuleTitle>Execution</ModuleTitle>
-        <img src={testImage6} />
+        <img src={testImage6}  alt=''/>
         {/* Content for Domain Model Customization */}
       </GridItem>
       <GridItem columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
         <ModuleTitle>Finetuning</ModuleTitle>
-        <img src={testImage4} />
+        <img src={testImage4}  alt=''/>
         {/* Content for Intelligent Business Technology Studio (IBTS) */}
       </GridItem>
       {/* More GridItems here */}
