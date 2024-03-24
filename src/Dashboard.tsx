@@ -29,7 +29,7 @@ const IBAE2DashBoard: React.FC = () => {
         {/* Content for Business Activity Modeling */}
       </GridItem>
       <GridItem columnSpan={2} rowSpan={1}> {/* This item will span 1 column */}
-        <ModuleTitle>Enterprise Connector No-Code Builder</ModuleTitle>
+        <ModuleTitle>Augmented Intelligent Workbench</ModuleTitle>
         <img src={testImage2}  alt=''/>
         {/* Content for Domain Model Customization */}
       </GridItem>
