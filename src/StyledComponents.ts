@@ -147,7 +147,7 @@ export const GridItem = styled.a<GridItemProps>`
 }
 `;
 
-export const LogoGridItem = styled.div<GridItemProps>`
+export const LogoGridItem = styled.a<GridItemProps>`
   background: #333;
   color: white;
   padding: 5px;
@@ -156,6 +156,9 @@ export const LogoGridItem = styled.div<GridItemProps>`
   justify-content: center; // Horizontal centering
   align-items: center; // Vertical centering
   flex-direction: column;
+  &:hover {
+    text-decoration: underline; // Optional: Adds underline on hover for visual feedback
+  }
 
   /* If columnSpan is not provided, it defaults to span 1 */
   grid-column: span ${(props) => props.columnSpan || 1};
@@ -176,7 +179,7 @@ export const LogoGridItem = styled.div<GridItemProps>`
 }
 `;
 
-export const VerticalGridItem = styled.div<GridItemProps>`
+export const VerticalGridItem = styled.a<GridItemProps>`
   background: #333;
   color: white;
   padding: 5px;
@@ -185,6 +188,9 @@ export const VerticalGridItem = styled.div<GridItemProps>`
   justify-content: center; // Horizontal centering
   align-items: center; // Vertical centering
   flex-direction: column;
+  &:hover {
+    text-decoration: underline; // Optional: Adds underline on hover for visual feedback
+  }
 
   /* If columnSpan is not provided, it defaults to span 1 */
   grid-column: span ${(props) => props.columnSpan || 1};
