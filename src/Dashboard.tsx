@@ -10,7 +10,7 @@ import testImage5 from './203431.png'
 import testImage6 from './214122.png'
 import partnerImg from './partnerEcosystem.jpg'
 import modelImg from './domainModelCustomization.png'
-import logo from './logo512.png'
+import logo from './CW3_icon.png'
 
 const LogoutButton: React.FC = () => {
     const { instance } = useMsal();
@@ -73,7 +73,7 @@ const IBAE2DashBoard: React.FC = () => {
         {/* Content for Domain Model Customization */}
       </GridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
-        <ModuleTitle>Finetuning</ModuleTitle>
+        <ModuleTitle>Prompt Library</ModuleTitle>
         <img src={testImage4}  alt=''/>
         {/* Content for Business Activity Modeling */}
       </GridItem>
@@ -93,7 +93,7 @@ const IBAE2DashBoard: React.FC = () => {
         {/* Content for Domain Model Customization */}
       </GridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
-        <ModuleTitle>Execution Tracing</ModuleTitle>
+        <ModuleTitle>Finetuning</ModuleTitle>
         <img src={testImage4}  alt=''/>
         {/* Content for Intelligent Business Technology Studio (IBTS) */}
       </GridItem>
