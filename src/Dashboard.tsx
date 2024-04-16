@@ -8,6 +8,7 @@ import testImage3 from './002309.png'
 import testImage4 from './001954.png'
 import testImage5 from './203431.png'
 import testImage6 from './214122.png'
+import partnerImg from './partnerEcosystem.jpg'
 import logo from './logo512.png'
 
 const LogoutButton: React.FC = () => {
@@ -23,50 +24,75 @@ const LogoutButton: React.FC = () => {
 const IBAE2DashBoard: React.FC = () => {
   return (
     <GridContainer>
-      <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={2} rowSpan={1}> {/* This item will span 2 columns */}
+      <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
         <ModuleTitle>Business Activity Modeling</ModuleTitle>
         <img src={testImage1} alt='' />
         {/* Content for Business Activity Modeling */}
       </GridItem>
-      <GridItem columnSpan={2} rowSpan={1}> {/* This item will span 1 column */}
+      <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 1 column */}
         <ModuleTitle>Augmented Intelligent Workbench</ModuleTitle>
-        <img src={testImage2}  alt=''/>
+        <img src={testImage6}  alt=''/>
+        {/* Content for Domain Model Customization */}
+      </GridItem>
+      <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
+        <ModuleTitle>Enterprise Connector Hosting</ModuleTitle>
+        <img src={testImage1} alt='' />
+        {/* Content for Business Activity Modeling */}
+      </GridItem>
+      <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 1 column */}
+        <ModuleTitle>Bespoke Applications</ModuleTitle>
+        <img src={testImage6}  alt=''/>
         {/* Content for Domain Model Customization */}
       </GridItem>
       <GridItem columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
-        <ModuleTitle>Prompt Library</ModuleTitle>
+        <ModuleTitle>Content Repo</ModuleTitle>
         <img src={testImage4}  alt=''/>
         {/* Content for Intelligent Business Technology Studio (IBTS) */}
       </GridItem>
-      <VerticalGridItem columnSpan={1} rowSpan={3}> {/* This item will span 3 columns */}
-        <ModuleTitle>Execution Tracing</ModuleTitle>
-        <img src={testImage3}  alt=''/>
+      <GridItem columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
+        <ModuleTitle>Partner Ecosystem</ModuleTitle>
+        <img src={partnerImg}  alt=''/>
         {/* Content for Intelligent Business Technology Studio (IBTS) */}
-      </VerticalGridItem>
-      <LogoGridItem columnSpan={4} rowSpan={1}> {/* This item will span 2 columns */}
+      </GridItem>
+      <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
+        <ModuleTitle>API Management</ModuleTitle>
+        <img src={testImage1} alt='' />
+        {/* Content for Business Activity Modeling */}
+      </GridItem>
+      <LogoGridItem columnSpan={2} rowSpan={1}> {/* This item will span 2 columns */}
         <LogModuleTitle>Intelligent Business Technology Studio (IBTS)</LogModuleTitle>
         
         <img src={logo}  alt=''/>
         <LogoutButton />
         {/* Content for Business Activity Modeling */}
       </LogoGridItem>
+      <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 1 column */}
+        <ModuleTitle>Event Management</ModuleTitle>
+        <img src={testImage6}  alt=''/>
+        {/* Content for Domain Model Customization */}
+      </GridItem>
       <GridItem columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
-        <ModuleTitle>Content Repo</ModuleTitle>
+        <ModuleTitle>Finetuning</ModuleTitle>
         <img src={testImage4}  alt=''/>
         {/* Content for Business Activity Modeling */}
       </GridItem>
+      <VerticalGridItem columnSpan={1} rowSpan={2}> {/* This item will span 3 columns */}
+        <ModuleTitle>Execution Tracing</ModuleTitle>
+        <img src={testImage3}  alt=''/>
+        {/* Content for Intelligent Business Technology Studio (IBTS) */}
+      </VerticalGridItem>
       <GridItem columnSpan={2} rowSpan={1}> {/* This item will span 2 columns */}
         <ModuleTitle>Domain Model Customization</ModuleTitle>
         <img src={testImage5}  alt=''/>
         {/* Content for Business Activity Modeling */}
       </GridItem>
-      <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={2} rowSpan={1}> {/* This item will span 1 column */}
-        <ModuleTitle>Business Activity Execution</ModuleTitle>
-        <img src={testImage6}  alt=''/>
+      <GridItem columnSpan={2} rowSpan={1}> {/* This item will span 1 column */}
+        <ModuleTitle>Assistant Lifecycle Management</ModuleTitle>
+        <img src={testImage2}  alt=''/>
         {/* Content for Domain Model Customization */}
       </GridItem>
       <GridItem columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
-        <ModuleTitle>Finetuning</ModuleTitle>
+        <ModuleTitle>Execution Tracing</ModuleTitle>
         <img src={testImage4}  alt=''/>
         {/* Content for Intelligent Business Technology Studio (IBTS) */}
       </GridItem>
