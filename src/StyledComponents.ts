@@ -185,7 +185,7 @@ export const VerticalGridItem = styled.a<GridItemProps>`
   padding: 5px;
   border-radius: 5px;
   display: flex;
-  justify-content: center; // Horizontal centering
+  // justify-content: center; // Horizontal centering
   // align-items: center; // Vertical centering
   flex-direction: column;
   &:hover {
