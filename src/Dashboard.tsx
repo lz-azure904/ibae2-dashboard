@@ -38,17 +38,17 @@ const IBAE2DashBoard: React.FC = () => {
         {/* Content for Domain Model Customization */}
       </GridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
-        <ModuleTitle>Connector Hosting</ModuleTitle>
+        <ModuleTitle>No-Code Workbench</ModuleTitle>
         <img src={testImage5} alt='' />
         {/* Content for Business Activity Modeling */}
       </GridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 1 column */}
-        <ModuleTitle>Enterprise Applications</ModuleTitle>
+        <ModuleTitle> Connector Hosting</ModuleTitle>
         <img src={testImage5}  alt=''/>
         {/* Content for Domain Model Customization */}
       </GridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
-        <ModuleTitle>No-Code Workbench</ModuleTitle>
+        <ModuleTitle>Enterprise Applications</ModuleTitle>
         <img src={testImage4}  alt=''/>
         {/* Content for Intelligent Business Technology Studio (IBTS) */}
       </GridItem>
