@@ -58,7 +58,7 @@ const IBAE2DashBoard: React.FC = () => {
         {/* Content for Intelligent Business Technology Studio (IBTS) */}
       </GridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
-        <ModuleTitle>API Management</ModuleTitle>
+        <ModuleTitle>Business Function Mgmt</ModuleTitle>
         <img src={testImage1} alt='' />
         {/* Content for Business Activity Modeling */}
       </GridItem>
@@ -70,7 +70,7 @@ const IBAE2DashBoard: React.FC = () => {
         {/* Content for Business Activity Modeling */}
       </LogoGridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 1 column */}
-        <ModuleTitle>Event Management</ModuleTitle>
+        <ModuleTitle>Business Event Mgmt</ModuleTitle>
         <img src={eventMgmt}  alt=''/>
         {/* Content for Domain Model Customization */}
       </GridItem>
