@@ -5,9 +5,10 @@ import { LogoGridItem, ModuleTitle, VerticalGridItem, GridContainer, LogModuleTi
 import testImage1 from './203354.png'
 import testImage2 from './203413.png'
 import testImage3 from './002309.png'
-import testImage4 from './001954.png'
+import testImage4 from './214122.png'
 import testImage5 from './203431.png'
-import testImage6 from './214122.png'
+import testImage6 from './203439.png'
+import eventMgmt from './203354.png'
 import partnerImg from './partnerEcosystem.jpg'
 import modelImg from './domainModelCustomization.png'
 import logo from './CW3_icon.png'
@@ -69,7 +70,7 @@ const IBAE2DashBoard: React.FC = () => {
       </LogoGridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 1 column */}
         <ModuleTitle>Event Management</ModuleTitle>
-        <img src={testImage1}  alt=''/>
+        <img src={eventMgmt}  alt=''/>
         {/* Content for Domain Model Customization */}
       </GridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
