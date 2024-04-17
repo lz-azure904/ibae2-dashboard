@@ -30,7 +30,7 @@ export const ModuleTitle = styled.h2`
 
 export const LogModuleTitle = styled.h2`
   font-size: 1.5rem;
-//   border-bottom: 1px solid #777;
+  border-bottom: 1px solid #777;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
   text-align: center; /* Center the text inside the h2 */
