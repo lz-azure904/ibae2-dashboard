@@ -84,7 +84,7 @@ const App: React.FC = () => {
           // <button onClick={handleLogin}>Login</button>
           <section className="grid h-screen place-items-center">
             <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Welcome To iBAE2</h2><br />
+            <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Welcome To CW3 Dashboard</h2><br />
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">You currently not logged in. Click the button to log in!</p>
               <button
                 type="button"
