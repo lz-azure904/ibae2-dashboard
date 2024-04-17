@@ -33,7 +33,7 @@ const IBAE2DashBoard: React.FC = () => {
         {/* Content for Business Activity Modeling */}
       </GridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 1 column */}
-        <ModuleTitle>No-Code Workbench</ModuleTitle>
+        <ModuleTitle>Digital Capability Model</ModuleTitle>
         <img src={testImage6}  alt=''/>
         {/* Content for Domain Model Customization */}
       </GridItem>
@@ -48,7 +48,7 @@ const IBAE2DashBoard: React.FC = () => {
         {/* Content for Domain Model Customization */}
       </GridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
-        <ModuleTitle>Content Repository</ModuleTitle>
+        <ModuleTitle>No-Code Workbench</ModuleTitle>
         <img src={testImage4}  alt=''/>
         {/* Content for Intelligent Business Technology Studio (IBTS) */}
       </GridItem>
@@ -75,7 +75,7 @@ const IBAE2DashBoard: React.FC = () => {
         {/* Content for Domain Model Customization */}
       </GridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
-        <ModuleTitle>Prompt Library</ModuleTitle>
+        <ModuleTitle>Content Repository</ModuleTitle>
         <img src={testImage8}  alt=''/>
         {/* Content for Business Activity Modeling */}
       </GridItem>
@@ -95,7 +95,7 @@ const IBAE2DashBoard: React.FC = () => {
         {/* Content for Domain Model Customization */}
       </GridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
-        <ModuleTitle>Finetuning</ModuleTitle>
+        <ModuleTitle>Prompt Library</ModuleTitle>
         <img src={testImage4}  alt=''/>
         {/* Content for Intelligent Business Technology Studio (IBTS) */}
       </GridItem>
