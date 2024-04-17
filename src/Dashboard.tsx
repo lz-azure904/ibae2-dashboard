@@ -53,7 +53,7 @@ const IBAE2DashBoard: React.FC = () => {
         {/* Content for Intelligent Business Technology Studio (IBTS) */}
       </GridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
-        <ModuleTitle>Partner Ecosystem</ModuleTitle>
+        <ModuleTitle>Domain Agencies</ModuleTitle>
         <img src={partnerImg}  alt=''/>
         {/* Content for Intelligent Business Technology Studio (IBTS) */}
       </GridItem>
