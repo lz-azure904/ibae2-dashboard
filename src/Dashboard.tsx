@@ -6,6 +6,7 @@ import testImage1 from './203354.png'
 import testImage2 from './203413.png'
 import testImage3 from './002309.png'
 import testImage4 from './214122.png'
+import testImage8 from './214129.png'
 import testImage5 from './203431.png'
 import testImage6 from './203439.png'
 import eventMgmt from './203359.png'
@@ -75,7 +76,7 @@ const IBAE2DashBoard: React.FC = () => {
       </GridItem>
       <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
         <ModuleTitle>Prompt Library</ModuleTitle>
-        <img src={testImage4}  alt=''/>
+        <img src={testImage8}  alt=''/>
         {/* Content for Business Activity Modeling */}
       </GridItem>
       <VerticalGridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={2}> {/* This item will span 3 columns */}
