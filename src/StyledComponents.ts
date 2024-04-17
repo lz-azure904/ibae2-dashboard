@@ -153,8 +153,8 @@ export const LogoGridItem = styled.a<GridItemProps>`
   padding: 5px;
   border-radius: 5px;
   display: flex;
-  justify-content: center; // Horizontal centering
-  align-items: center; // Vertical centering
+  // justify-content: center; // Horizontal centering
+  // align-items: center; // Vertical centering
   flex-direction: column;
   &:hover {
     text-decoration: underline; // Optional: Adds underline on hover for visual feedback
