@@ -12,7 +12,7 @@ import {
   IconSend,} 
   from '@tabler/icons-react';
 import { useMsal } from '@azure/msal-react';
-import { LogoGridItem, ModuleTitle, VerticalGridItem, GridContainer, LogModuleTitle, GridItem } from './StyledComponents';
+import { LogoGridItem, ModuleTitle, GridContainer, LogModuleTitle, GridItem } from './StyledComponents';
 import testImage1 from './203354.png'
 import testImage2 from './203413.png'
 import testImage3 from './002309.png'
@@ -116,12 +116,12 @@ const IBAE2DashBoard: React.FC = () => {
         </GridItem>
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
           <ModuleTitle>Account Settings</ModuleTitle>
-          {/* <ul>
+          <ul>
             <li><IconFileUpload size={18}/>General</li>
             <li><IconFileUpload size={18}/>Usage</li>
             <li><IconFileUpload size={18}/>Billing</li>
             <li><IconFileUpload size={18}/>Preferences</li>
-          </ul> */}
+          </ul>
         </GridItem>
         {/* More GridItems here */}
       </GridContainer>
