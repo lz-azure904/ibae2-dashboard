@@ -117,10 +117,46 @@ const IBAE2DashBoard: React.FC = () => {
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
           <ModuleTitle>Account Settings</ModuleTitle>
           <ul>
-            <li><IconFileUpload size={18}/>General</li>
+            <li>
+              <button
+                className="flex w-full cursor-pointer select-none items-center gap-3 rounded-md py-3 px-3 text-[14px] leading-3 text-white transition-colors duration-200 hover:bg-gray-500/10"
+      
+              >
+                <div><IconFileUpload size={18}/></div>
+                <span>General</span>
+              </button>
+            </li>
+            <li>
+              <button
+                className="flex w-full cursor-pointer select-none items-center gap-3 rounded-md py-3 px-3 text-[14px] leading-3 text-white transition-colors duration-200 hover:bg-gray-500/10"
+      
+              >
+                <div><IconFileUpload size={18}/></div>
+                <span>Usage</span>
+              </button>
+            </li>
+            <li>
+              <button
+                className="flex w-full cursor-pointer select-none items-center gap-3 rounded-md py-3 px-3 text-[14px] leading-3 text-white transition-colors duration-200 hover:bg-gray-500/10"
+      
+              >
+                <div><IconFileUpload size={18}/></div>
+                <span>Billing</span>
+              </button>
+            </li>
+            <li>
+              <button
+                className="flex w-full cursor-pointer select-none items-center gap-3 rounded-md py-3 px-3 text-[14px] leading-3 text-white transition-colors duration-200 hover:bg-gray-500/10"
+      
+              >
+                <div><IconFileUpload size={18}/></div>
+                <span>Preferences</span>
+              </button>
+            </li>
+            {/* <li><IconFileUpload size={18}/>General</li>
             <li><IconFileUpload size={18}/>Usage</li>
             <li><IconFileUpload size={18}/>Billing</li>
-            <li><IconFileUpload size={18}/>Preferences</li>
+            <li><IconFileUpload size={18}/>Preferences</li> */}
           </ul>
         </GridItem>
         {/* More GridItems here */}
