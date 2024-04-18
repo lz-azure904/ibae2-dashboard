@@ -77,6 +77,11 @@ const IBAE2DashBoard: React.FC = () => {
           <img src={testImage1} alt='' />
           {/* Content for Business Activity Modeling */}
         </GridItem>
+        <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 1 column */}
+          <ModuleTitle>Business Event Mgmt</ModuleTitle>
+          <img src={eventMgmt}  alt=''/>
+          {/* Content for Domain Model Customization */}
+        </GridItem>
         <LogoGridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={2} rowSpan={1}> {/* This item will span 2 columns */}
           <LogModuleTitle>Intelligent Business Execution Environment</LogModuleTitle>
           
@@ -84,11 +89,7 @@ const IBAE2DashBoard: React.FC = () => {
          
           {/* Content for Business Activity Modeling */}
         </LogoGridItem>
-        <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 1 column */}
-          <ModuleTitle>Business Event Mgmt</ModuleTitle>
-          <img src={eventMgmt}  alt=''/>
-          {/* Content for Domain Model Customization */}
-        </GridItem>
+        
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
           <ModuleTitle>Content Repository</ModuleTitle>
           <img src={testImage8}  alt=''/>
