@@ -83,11 +83,11 @@ const IBAE2DashBoard: React.FC = () => {
           <img src={testImage8}  alt=''/>
           {/* Content for Business Activity Modeling */}
         </GridItem>
-        <VerticalGridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={2}> {/* This item will span 3 columns */}
+        <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
           <ModuleTitle>Execution Tracing</ModuleTitle>
           <img src={testImage3}  alt=''/>
           {/* Content for Intelligent Business Technology Studio (IBTS) */}
-        </VerticalGridItem>
+        </GridItem>
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={2} rowSpan={1}> {/* This item will span 2 columns */}
           <ModuleTitle>Domain Model Customization</ModuleTitle>
           <img src={modelImg}  alt=''/>
@@ -102,6 +102,15 @@ const IBAE2DashBoard: React.FC = () => {
           <ModuleTitle>Model Hosting</ModuleTitle>
           <img src={testImage4}  alt=''/>
           {/* Content for Intelligent Business Technology Studio (IBTS) */}
+        </GridItem>
+        <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
+          <ModuleTitle>Account Settings</ModuleTitle>
+          <ul>
+            <li>General</li>
+            <li>Usage</li>
+            <li>Billing</li>
+            <li>Preferences</li>
+          </ul>
         </GridItem>
         {/* More GridItems here */}
       </GridContainer>
