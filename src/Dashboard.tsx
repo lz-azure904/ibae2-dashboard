@@ -114,13 +114,13 @@ const IBAE2DashBoard: React.FC = () => {
           <img src={testImage4}  alt=''/>
           {/* Content for Intelligent Business Technology Studio (IBTS) */}
         </GridItem>
-        <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
+        <GridItem columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
           <ModuleTitle>Account Settings</ModuleTitle>
           <ul>
             <li>
               <button
                 className="flex w-full cursor-pointer select-none items-center gap-3 rounded-md py-3 px-3 text-[14px] leading-3 text-white transition-colors duration-200 hover:bg-gray-500/10"
-      
+                onClick={() => {}}
               >
                 <div><IconFileUpload size={18}/></div>
                 <span>General</span>
@@ -129,7 +129,7 @@ const IBAE2DashBoard: React.FC = () => {
             <li>
               <button
                 className="flex w-full cursor-pointer select-none items-center gap-3 rounded-md py-3 px-3 text-[14px] leading-3 text-white transition-colors duration-200 hover:bg-gray-500/10"
-      
+                onClick={() => {}}
               >
                 <div><IconFileUpload size={18}/></div>
                 <span>Usage</span>
@@ -138,7 +138,7 @@ const IBAE2DashBoard: React.FC = () => {
             <li>
               <button
                 className="flex w-full cursor-pointer select-none items-center gap-3 rounded-md py-3 px-3 text-[14px] leading-3 text-white transition-colors duration-200 hover:bg-gray-500/10"
-      
+                onClick={() => {}}
               >
                 <div><IconFileUpload size={18}/></div>
                 <span>Billing</span>
@@ -147,7 +147,7 @@ const IBAE2DashBoard: React.FC = () => {
             <li>
               <button
                 className="flex w-full cursor-pointer select-none items-center gap-3 rounded-md py-3 px-3 text-[14px] leading-3 text-white transition-colors duration-200 hover:bg-gray-500/10"
-      
+                onClick={() => {}}
               >
                 <div><IconFileUpload size={18}/></div>
                 <span>Preferences</span>
