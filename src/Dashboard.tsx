@@ -15,7 +15,7 @@ import { useMsal } from '@azure/msal-react';
 import { LogoGridItem, ModuleTitle, GridContainer, LogModuleTitle, GridItem } from './StyledComponents';
 import testImage1 from './203354.png'
 import testImage2 from './203413.png'
-// import testImage3 from './002309.png'
+import testImage3 from './215235.png'
 import testImage4 from './214122.png'
 import testImage8 from './214129.png'
 import testImage5 from './203431.png'
@@ -96,7 +96,7 @@ const IBAE2DashBoard: React.FC = () => {
         </GridItem>
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
           <ModuleTitle>Execution Tracing</ModuleTitle>
-          <img src={testImage8}  alt=''/>
+          <img src={testImage3}  alt=''/>
           {/* Content for Intelligent Business Technology Studio (IBTS) */}
         </GridItem>
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={2} rowSpan={1}> {/* This item will span 2 columns */}
