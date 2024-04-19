@@ -3,20 +3,20 @@
 import React from 'react';
 import IBAE2DashBoard from './Dashboard';
 import { GlobalStyle } from './GlobalStyle';
-import { useMsal, useIsAuthenticated } from '@azure/msal-react';
-import { loginRequest } from './authConfig';
+// import { useMsal, useIsAuthenticated } from '@azure/msal-react';
+// import { loginRequest } from './authConfig';
 
 const App: React.FC = () => {
-  const { instance } = useMsal();
-  const isAuthenticated = useIsAuthenticated();
+  // const { instance } = useMsal();
+  // const isAuthenticated = useIsAuthenticated();
 
   // const USER_TIMEOUT = 1000 * 60 * 5; // 15 minutes of inactivity
 
-  const handleLogin = () => {
-    instance.loginPopup(loginRequest).catch(e => {
-      console.error(e);
-    });
-  };
+  // const handleLogin = () => {
+  //   instance.loginPopup(loginRequest).catch(e => {
+  //     console.error(e);
+  //   });
+  // };
 
 //  const handleLogout = () => {
   
@@ -71,7 +71,11 @@ const App: React.FC = () => {
   return (
     <>
       <div>
-        {isAuthenticated ? (
+        <GlobalStyle />
+        <div className="App">
+          <IBAE2DashBoard />
+        </div>
+        {/* {isAuthenticated ? (
          
           <>
             <p>User is authenticated</p>
@@ -95,7 +99,7 @@ const App: React.FC = () => {
             </div>
       
           </section>
-        )}
+        )} */}
       </div>
       
     </>
