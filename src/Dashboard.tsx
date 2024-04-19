@@ -54,7 +54,7 @@ const IBAE2DashBoard: React.FC = () => {
         
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
           <ModuleTitle>No-Code Workbench</ModuleTitle>
-          <img src={testImage5} alt='' />
+          <img src={testImage6} alt='' />
           {/* Content for Business Activity Modeling */}
         </GridItem>
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 1 column */}
@@ -64,7 +64,7 @@ const IBAE2DashBoard: React.FC = () => {
         </GridItem>
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
           <ModuleTitle>Bespoken Applications</ModuleTitle>
-          <img src={testImage6}  alt=''/>
+          <img src={testImage5}  alt=''/>
           {/* Content for Intelligent Business Technology Studio (IBTS) */}
         </GridItem>
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 1 column */}
