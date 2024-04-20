@@ -108,12 +108,12 @@ const IBAE2DashBoard: React.FC = () => {
           {/* Content for Business Activity Modeling */}
         </GridItem>
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={2} rowSpan={1}> {/* This item will span 1 column */}
-          <ModuleTitle>Model Lifecycle Mgmt</ModuleTitle>
+          <ModuleTitle>Assistant Lifecycle Mgmt</ModuleTitle>
           <img src={testImage2}  alt=''/>
           {/* Content for Domain Model Customization */}
         </GridItem>
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
-          <ModuleTitle>Partner Portal</ModuleTitle>
+          <ModuleTitle>Domain SMEs Portal</ModuleTitle>
           <img src={testImage4}  alt=''/>
           {/* Content for Intelligent Business Technology Studio (IBTS) */}
         </GridItem>
