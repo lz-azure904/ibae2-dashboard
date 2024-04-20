@@ -58,12 +58,12 @@ const IBAE2DashBoard: React.FC = () => {
           {/* Content for Business Activity Modeling */}
         </GridItem>
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 1 column */}
-          <ModuleTitle> Business Connectors</ModuleTitle>
+          <ModuleTitle> Business Applications</ModuleTitle>
           <img src={testImage5}  alt=''/>
           {/* Content for Domain Model Customization */}
         </GridItem>
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
-          <ModuleTitle>Bespoke Applications</ModuleTitle>
+          <ModuleTitle>Security Mgmt Console</ModuleTitle>
           <img src={testImage5}  alt=''/>
           {/* Content for Intelligent Business Technology Studio (IBTS) */}
         </GridItem>
@@ -73,7 +73,7 @@ const IBAE2DashBoard: React.FC = () => {
           {/* Content for Domain Model Customization */}
         </GridItem>
         <VerticalGridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={2}> {/* This item will span 3 columns */}
-          <ModuleTitle>Execution Tracing</ModuleTitle>
+          <ModuleTitle>Activity Tracking</ModuleTitle>
           <img src={testImage3}  alt=''/>
           {/* Content for Intelligent Business Technology Studio (IBTS) */}
         </VerticalGridItem>
