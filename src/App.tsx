@@ -24,10 +24,10 @@ const App: React.FC = () => {
   return (
     <>
       <div>
-        <GlobalStyle />
+        {/* <GlobalStyle />
         <div className="App">
           <IBAE2DashBoard />
-        </div>
+        </div> */}
         {isAuthenticated ? (
          
           <>
