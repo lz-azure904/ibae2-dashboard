@@ -3,68 +3,21 @@
 import React from 'react';
 import IBAE2DashBoard from './Dashboard';
 import { GlobalStyle } from './GlobalStyle';
-// import { useMsal, useIsAuthenticated } from '@azure/msal-react';
-// import { loginRequest } from './authConfig';
+import { useMsal, useIsAuthenticated } from '@azure/msal-react';
+import { loginRequest } from './authConfig';
 
 const App: React.FC = () => {
-  // const { instance } = useMsal();
-  // const isAuthenticated = useIsAuthenticated();
+  const { instance } = useMsal();
+  const isAuthenticated = useIsAuthenticated();
 
   // const USER_TIMEOUT = 1000 * 60 * 5; // 15 minutes of inactivity
 
-  // const handleLogin = () => {
-  //   instance.loginPopup(loginRequest).catch(e => {
-  //     console.error(e);
-  //   });
-  // };
+  const handleLogin = () => {
+    instance.loginPopup(loginRequest).catch(e => {
+      console.error(e);
+    });
+  };
 
-//  const handleLogout = () => {
-  
-//     const logoutRequest = {
-//       postLogoutRedirectUri: "/", // Specifies where to redirect the user after logout. Adjust as needed.
-//       // Optionally, you can specify more properties here.
-//     };
-  
-//     instance.logoutRedirect(logoutRequest); // For redirect-based logout
-//     // Or use instance.logoutPopup(logoutRequest) for popup-based logout
-//   };
-
-  // const SessionTimeoutHandler = () => {
-  //   // const { instance } = useMsal();
-  
-  //   useEffect(() => {
-  //     let timeoutId: any;
-  
-  //     const resetTimeout = () => {
-  //       clearTimeout(timeoutId);
-  //       timeoutId = setTimeout(() => {
-  //         // Force logout or require re-authentication
-  //         console.log('Session timed out');
-  //         // instance.logoutRedirect(); // Or instance.loginRedirect() for re-authentication
-  //         instance.logoutRedirect({ postLogoutRedirectUri: "/" })
-  //         // handleLogout();
-  //       }, USER_TIMEOUT);
-  //     };
-  
-  //     // Reset the timeout on various user activities
-  //     window.addEventListener('mousemove', resetTimeout);
-  //     window.addEventListener('keydown', resetTimeout);
-  //     window.addEventListener('scroll', resetTimeout);
-  
-  //     // Set initial timeout
-  //     resetTimeout();
-  
-  //     // Cleanup on component unmount
-  //     return () => {
-  //       clearTimeout(timeoutId);
-  //       window.removeEventListener('mousemove', resetTimeout);
-  //       window.removeEventListener('keydown', resetTimeout);
-  //       window.removeEventListener('scroll', resetTimeout);
-  //     };
-  //   }, [instance]);
-  
-  //   return null; // This component does not render anything
-  // };
 
 
 
@@ -75,7 +28,7 @@ const App: React.FC = () => {
         <div className="App">
           <IBAE2DashBoard />
         </div>
-        {/* {isAuthenticated ? (
+        {isAuthenticated ? (
          
           <>
             <p>User is authenticated</p>
@@ -99,7 +52,7 @@ const App: React.FC = () => {
             </div>
       
           </section>
-        )} */}
+        )}
       </div>
       
     </>
