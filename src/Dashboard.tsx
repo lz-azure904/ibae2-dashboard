@@ -47,7 +47,7 @@ const IBAE2DashBoard: React.FC = () => {
     <div>
       <GridContainer>
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
-          <ModuleTitle>Business Activity Model</ModuleTitle>
+          <ModuleTitle>Intelligent Business Model</ModuleTitle>
           <img src={testImage6} alt='' />
           {/* Content for Business Activity Modeling */}
         </GridItem>
