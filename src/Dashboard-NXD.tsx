@@ -47,7 +47,7 @@ const DashBoardNXD: React.FC = () => {
     <div>
       <GridContainer>
         <GridItem href="https://mdidb.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
-          <ModuleTitle>Business Blueprint</ModuleTitle>
+          <ModuleTitle>Business-Blueprint</ModuleTitle>
           <img src={testImage6} alt='' />
           {/* Content for Business Activity Modeling */}
         </GridItem>
