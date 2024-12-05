@@ -46,7 +46,7 @@ const IBAE2DashBoard: React.FC = () => {
   return (
     <div>
       <GridContainer>
-        <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
+        <GridItem href="https://mdidb.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
           <ModuleTitle>Business Blueprint</ModuleTitle>
           <img src={testImage6} alt='' />
           {/* Content for Business Activity Modeling */}
@@ -63,7 +63,7 @@ const IBAE2DashBoard: React.FC = () => {
           {/* Content for Domain Model Customization */}
         </GridItem>
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 3 columns */}
-          <ModuleTitle>Security Mgmt Console</ModuleTitle>
+          <ModuleTitle>Security Console</ModuleTitle>
           <img src={testImage5}  alt=''/>
           {/* Content for Intelligent Business Technology Studio (IBTS) */}
         </GridItem>
@@ -73,7 +73,7 @@ const IBAE2DashBoard: React.FC = () => {
           {/* Content for Domain Model Customization */}
         </GridItem>
         <VerticalGridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={2}> {/* This item will span 3 columns */}
-          <ModuleTitle>Activity Tracking</ModuleTitle>
+          <ModuleTitle>Activity Tracing</ModuleTitle>
           <img src={testImage3}  alt=''/>
           {/* Content for Intelligent Business Technology Studio (IBTS) */}
         </VerticalGridItem>
@@ -97,13 +97,13 @@ const IBAE2DashBoard: React.FC = () => {
           {/* Content for Domain Model Customization */}
         </GridItem>
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={1} rowSpan={1}> {/* This item will span 2 columns */}
-          <ModuleTitle>Model Hosting Mgmt</ModuleTitle>
+          <ModuleTitle>Model Hosting</ModuleTitle>
           <img src={testImage8}  alt=''/>
           {/* Content for Business Activity Modeling */}
         </GridItem>
         
         <GridItem href="https://ibae2.cloudwave3.com" target="_blank" rel="noopener noreferrer" columnSpan={2} rowSpan={1}> {/* This item will span 2 columns */}
-          <ModuleTitle>Domain Model Customization</ModuleTitle>
+          <ModuleTitle>Activity Model Customization</ModuleTitle>
           <img src={modelImg}  alt=''/>
           {/* Content for Business Activity Modeling */}
         </GridItem>
